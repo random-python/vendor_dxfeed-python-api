@@ -1,0 +1,7 @@
+
+
+recursive-include   dxfeed   *
+
+recursive-exclude   dxfeed   *.c
+recursive-exclude   dxfeed   tmp/**
+recursive-exclude   dxfeed   __pycache__/**

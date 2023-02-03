@@ -29,7 +29,7 @@ dxfeed_c_api_bundle_url_template = 'https://github.com/dxFeed/dxfeed-c-api/relea
 [project]
 
 name = "dxfeed"
-version = "2023.05.100"
+version = "2023.05.101"
 
 requires-python = ">=3.10"
 
