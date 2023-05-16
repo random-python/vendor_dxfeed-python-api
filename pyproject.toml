@@ -6,11 +6,11 @@ build-backend = "setuptools.build_meta"
 
 requires = [
 
-    "pip == 23.0",
-    "wheel == 0.38.4",
-    "setuptools == 66.1.1",
+    "pip == 23.1.2",
+    "wheel == 0.40.0",
+    "setuptools == 67.7.2",
     
-    "cython == 0.29.33",
+    "cython == 0.29.34",
     
     "toml == 0.10.2",
 ]
@@ -19,7 +19,7 @@ requires = [
 [build.native-dependencies]
 
 # current version of https://github.com/dxFeed/dxfeed-c-api
-dxfeed_c_api = '8.8.0'
+dxfeed_c_api = '8.8.1'
 
 # The URL template for zipped dxFeed C API bundle. Parameters used:
 #   {version} - The C API version
@@ -29,7 +29,9 @@ dxfeed_c_api_bundle_url_template = 'https://github.com/dxFeed/dxfeed-c-api/relea
 [project]
 
 name = "dxfeed"
-version = "2023.05.101"
+
+# this-year . this-week . this-sequence 
+version = "2023.20.101"
 
 requires-python = ">=3.10"
 
